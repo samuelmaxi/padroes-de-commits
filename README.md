@@ -18,6 +18,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `test` - Commits do tipo test são utilizados quando são realizadas **alterações em testes**, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
 
+- `code` - Commits do tipo code são utilizados quando são adicionados **alterações para testes**, seja logs, alterando ou excluindo logs. (Não inclui alterações em código)
+
 - `build` - Commits do tipo build são utilizados quando são realizadas modificações em **arquivos de build e dependências**.
 
 - `perf` - Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a **performance**.
